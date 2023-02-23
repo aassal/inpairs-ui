@@ -1,0 +1,21 @@
+:root {
+    /* fonts */
+    --font-kite-one: "Kite One";
+    --font-lato: Lato;
+  
+    /* font sizes */
+    --font-size-sm: 24px;
+    --font-size-base: 28px;
+    --font-size-lg: 36px;
+    --font-size-xl: 40px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslateblue-100: #622466;
+    --color-darkslateblue-200: rgba(98, 36, 102, 0.25);
+    --color-tomato: #ef3e37;
+  
+    /* border radiuses */
+    --br-md: 70px;
+  }
+  

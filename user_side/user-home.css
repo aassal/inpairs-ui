@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+.user-home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+}
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.landing-nav-bar {
+  position: absolute;
+  background-color: var(--color-darkslateblue-200);
+  display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-bar-main {
+  position: absolute;
+  font-size: var(--font-size-base);
+  font-family: var(--font-kite-one);
+  color: var(--color-darkslateblue-100);
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 73px;
+}
+.nav-bar-main:hover{
+  text-decoration: underline;
+  color: var(--color-darkslateblue-100);
+}
+.inpairs-logo-nav {
+  position: absolute;
+  top: 16%;
+  left: 2%;
+  height: 60%;
+  object-fit: cover;
+}
+.welcome {
+  position: absolute;
+  display: flex;
+  margin: auto;
+  top: 20%;
+  padding: 10px;
+  font-size: 128px;
+  font-family: var(--font-lato);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  color: var(--color-darkslateblue-100);
+}
+.buttons{
+  display: flex;
+  position: relative;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 150px;
+  top: 50%;
+}
+.home-buttons{
+  border: none;;
+  width: 300px;
+  height: 125px;
+  border-radius: 60px;
+  background-color: var(--color-tomato);
+  padding: 15px;
+}
+.home-buttons-text{
+  font-family: var(--font-kite-one);
+  text-decoration: none;
+  color: var(--color-white);
+  font-size: var(--font-size-lg);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-buttons-text:hover{
+  text-decoration: underline;
+  color: var(--color-white);
+}
