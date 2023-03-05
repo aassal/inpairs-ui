@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="../public/global.css" />
+    <link rel="stylesheet" href="./matchmaker-main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kite One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="matchmaker-main">
+      <nav class="landing-nav-bar row">
+        <img class="inpairs-logo-nav" alt="inpairs logo pears" src="../public/pears-grad.png"/>
+        <a class="nav-bar-main col-md-1" href="./matchmaker-home.html" id="my-profile">home</a>
+      </nav>
+      <div class="matches row">
+        <div class="user profiles col-md-5">
+          <div class="profile">
+            <div class="title row col-md-12" id="row1">USERID</div>
+            <div class="profile-content row">
+                <div class="col-md-3" id="col1">
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <img src="../public/prof-pic.png" alt="image1">
+                            <img src="../public/sample-pic.jpg" alt="image2">
+                            <img src="../public/sample-pic2.jpeg" alt="image3">
+                        </div>
+                        <span class="carousel-prev">&#8249;</span>
+		                <span class="carousel-next">&#8250;</span>
+                    </div>                   
+                    <div class="demographics">
+                        <p class="heading">DEMOGRAPHICS:</p>
+                        <p class="text">Age: {age}</p>
+                        <p class="text">Occupation: {occupation}</p>
+                        <p class="text">Ethnicity: {ethnicity}</p>
+                        <p class="text">Height: {height}</p>
+                        <p class="text">Location: {location}</p>
+                        <p class="text">Willing to Move: {yes/no/in the future}</p>
+                    </div>
+                    <div class="demographics">
+                        <p class="heading">ADDITIONAL INFO:</p>
+                        <p class="text">Education: {education}</p>
+                        <p class="text">Languages Spoken: {languages}</p>
+                        <p class="text">Sect: {sunni/shia/other}</p>
+                        <p class="text">Married Before: {yes/no}</p>
+                        <p class="text">Kids: {yes/no}</p>
+                    </div> 
+                </div>
+                <div class="col-md-5" id="col2">
+                    <div class="about-me">
+                        <p class="heading">ABOUT ME:</p>
+                        <p class="text">
+                            {I am the type of person to go above and beyond for someone who
+                            shows effort and respect. I am a very self-aware person and am
+                            constantly trying to improve on any bad habits. I am a
+                            non-judgemental and understanding person with empathy, but I do
+                            have my dealbreakers, particularly on matters which are unislamic.
+                            I am quite independent, headstrong and a committed person. I would
+                            also describe myself as a perfectionist. I am not an unreasonable
+                            person in terms of my demands and would say I’m quite easy going
+                            but adhere strongly to my personal values. I enjoy jokes,
+                            exploring new places, trying new foods and am willing to do any
+                            new and fun. I am family oriented but also like my privacy. I
+                            admire people who have some ambition or are passionate about
+                            anything and can teach me! I also enjoy talking about politics and
+                            admire people who have good general knowledge.}
+                        </p>
+                    </div>
+                    <div class="role-of-islam">
+                        <p class="heading">ROLE OF ISLAM:</p>
+                        <p class="text">
+                            {I am the type of person to go above and beyond for someone who
+                            shows effort and respect. I am a very self-aware person and am
+                            constantly trying to improve on any bad habits. I am a
+                            non-judgemental and understanding person with empathy, but I do
+                            have my dealbreakers, particularly on matters which are unislamic.
+                            I am quite independent, headstrong and a committed person. I would
+                            also describe myself as a perfectionist. I am not an unreasonable
+                            person in terms of my demands and would say I’m quite easy going
+                            but adhere strongly to my personal values.}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4" id="col3">
+                    <div class="passion">
+                        <p class="heading">PASSION:</p>
+                        <p class="text">
+                            {I am passionate about geopolitics and the study of international
+                            relations. I also find history fascinating because it informs how
+                            countries interact today I.e. history repeats itself. How
+                            countries interact with each other through war, trade, culture
+                            etc. determines whether relations will be stable or not and this
+                            has an impact on the rest of the region and even the entire world.
+                            Studying International relations for my bachelor’s and
+                            International Conflict Studies for my master’s equipped me with
+                            great knowledge of how countries interact and how the world
+                            operates. My interest in foreign affairs and diplomacy started
+                            when I was in high school and continues to grow till this day.}
+                        </p>
+                    </div>
+                    <div class="interests">
+                        <p class="heading">INTERESTS:</p>
+                        <p class="text">
+                            {Exploring cities, museums, exhibitions, walks, days in the park,
+                            picnic, watching documentaries on politics, psychological thriller
+                            series, crime, trying new food places, traveling}
+                        </p>
+                    </div>
+                    <div class="scales">
+                        <p class="heading">SCALES:</p>
+                        <p class="text">Career vs Family Oriented: {}/5</p>
+                        <p class="text">Financial Independence: {}/5</p>
+                        <p class="text">Fit: {}/5</p>
+                        <p class="text">Family Closeness: {}/10</p>
+                        <p class="text">Day-to-Day Importance of Islam: {}/10</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="potentials profiles col-md-5">
+          <div class="profiles col-md-6">
+            <div class="profile">
+              <div class="title row col-md-12" id="row1">POTENTIAL MATCHES</div>
+              <div class="profile-content row">
+                  <div class="col-md-3" id="col1">
+                      <div class="carousel">
+                          <div class="carousel-container">
+                              <img src="../public/prof-pic.png" alt="image1">
+                              <img src="../public/sample-pic.jpg" alt="image2">
+                              <img src="../public/sample-pic2.jpeg" alt="image3">
+                          </div>
+                          <span class="carousel-prev">&#8249;</span>
+                      <span class="carousel-next">&#8250;</span>
+                      </div>                   
+                      <div class="demographics">
+                          <p class="heading">DEMOGRAPHICS:</p>
+                          <p class="text">Age: {age}</p>
+                          <p class="text">Occupation: {occupation}</p>
+                          <p class="text">Ethnicity: {ethnicity}</p>
+                          <p class="text">Height: {height}</p>
+                          <p class="text">Location: {location}</p>
+                          <p class="text">Willing to Move: {yes/no/in the future}</p>
+                      </div>
+                      <div class="demographics">
+                          <p class="heading">ADDITIONAL INFO:</p>
+                          <p class="text">Education: {education}</p>
+                          <p class="text">Languages Spoken: {languages}</p>
+                          <p class="text">Sect: {sunni/shia/other}</p>
+                          <p class="text">Married Before: {yes/no}</p>
+                          <p class="text">Kids: {yes/no}</p>
+                      </div> 
+                  </div>
+                  <div class="col-md-5" id="col2">
+                      <div class="about-me">
+                          <p class="heading">ABOUT ME:</p>
+                          <p class="text">
+                              {I am the type of person to go above and beyond for someone who
+                              shows effort and respect. I am a very self-aware person and am
+                              constantly trying to improve on any bad habits. I am a
+                              non-judgemental and understanding person with empathy, but I do
+                              have my dealbreakers, particularly on matters which are unislamic.
+                              I am quite independent, headstrong and a committed person. I would
+                              also describe myself as a perfectionist. I am not an unreasonable
+                              person in terms of my demands and would say I’m quite easy going
+                              but adhere strongly to my personal values. I enjoy jokes,
+                              exploring new places, trying new foods and am willing to do any
+                              new and fun. I am family oriented but also like my privacy. I
+                              admire people who have some ambition or are passionate about
+                              anything and can teach me! I also enjoy talking about politics and
+                              admire people who have good general knowledge.}
+                          </p>
+                      </div>
+                      <div class="role-of-islam">
+                          <p class="heading">ROLE OF ISLAM:</p>
+                          <p class="text">
+                              {I am the type of person to go above and beyond for someone who
+                              shows effort and respect. I am a very self-aware person and am
+                              constantly trying to improve on any bad habits. I am a
+                              non-judgemental and understanding person with empathy, but I do
+                              have my dealbreakers, particularly on matters which are unislamic.
+                              I am quite independent, headstrong and a committed person. I would
+                              also describe myself as a perfectionist. I am not an unreasonable
+                              person in terms of my demands and would say I’m quite easy going
+                              but adhere strongly to my personal values.}
+                          </p>
+                      </div>
+                  </div>
+                  <div class="col-md-4" id="col3">
+                      <div class="passion">
+                          <p class="heading">PASSION:</p>
+                          <p class="text">
+                              {I am passionate about geopolitics and the study of international
+                              relations. I also find history fascinating because it informs how
+                              countries interact today I.e. history repeats itself. How
+                              countries interact with each other through war, trade, culture
+                              etc. determines whether relations will be stable or not and this
+                              has an impact on the rest of the region and even the entire world.
+                              Studying International relations for my bachelor’s and
+                              International Conflict Studies for my master’s equipped me with
+                              great knowledge of how countries interact and how the world
+                              operates. My interest in foreign affairs and diplomacy started
+                              when I was in high school and continues to grow till this day.}
+                          </p>
+                      </div>
+                      <div class="interests">
+                          <p class="heading">INTERESTS:</p>
+                          <p class="text">
+                              {Exploring cities, museums, exhibitions, walks, days in the park,
+                              picnic, watching documentaries on politics, psychological thriller
+                              series, crime, trying new food places, traveling}
+                          </p>
+                      </div>
+                      <div class="scales">
+                          <p class="heading">SCALES:</p>
+                          <p class="text">Career vs Family Oriented: {}/5</p>
+                          <p class="text">Financial Independence: {}/5</p>
+                          <p class="text">Fit: {}/5</p>
+                          <p class="text">Family Closeness: {}/10</p>
+                          <p class="text">Day-to-Day Importance of Islam: {}/10</p>
+                      </div>
+                  </div>
+              </div>
+        </div>
+      </div>
+      <script>
+        const carouselContainer = document.querySelector('.carousel-container');
+        const prevBtn = document.querySelector('.carousel-prev');
+        const nextBtn = document.querySelector('.carousel-next');
+        const images = document.querySelectorAll('.carousel-container img');
+        let imageIndex = 0;
+        const imageWidth = images[0].clientWidth;
+    
+        function slideLeft() {
+          imageIndex = (imageIndex > 0) ? imageIndex - 1 : images.length - 1;
+          carouselContainer.style.transform = `translateX(-${imageIndex * imageWidth}px)`;
+        }
+    
+        function slideRight() {
+          imageIndex = (imageIndex < images.length - 1) ? imageIndex + 1 : 0;
+          carouselContainer.style.transform = `translateX(-${imageIndex * imageWidth}px)`;
+        }
+    
+        prevBtn.addEventListener('click', slideLeft);
+        nextBtn.addEventListener('click', slideRight);
+      </script>
+  </body>
+</html>
