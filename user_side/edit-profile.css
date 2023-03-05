@@ -1,0 +1,7 @@
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: horizontal-tb;
+    width: auto;
+  }
